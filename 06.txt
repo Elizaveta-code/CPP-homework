@@ -1,0 +1,18 @@
+1) int (по умолчанию в C++ целочисленный литерал без суффикса имеет тип int, если он помещается в диапазон int, иначе long)
+2) long long
+3) int
+4) int
+5) int
+6) Ref
+7) CRef
+8) CRef (временный объект, можно привязать только к константной ссылке)
+9) CRef (static_cast<int>(a) создает rvalue типа int)
+10) Ref (static_cast<int&>(a) создает lvalue ссылку типа int&)
+11) CRef (rvalue)
+12) CRef (func() возвращает rvalue типа int)
+13) C-string
+14) std::string
+15) C-string
+16) std::string
+17) std::string
+18) C-string (a.c_str() возвращает const char*)
