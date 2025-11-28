@@ -1,0 +1,6 @@
+1) copy
+2) value
+3) direct
+4) default
+5) copy
+6) direct
