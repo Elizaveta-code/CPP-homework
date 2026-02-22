@@ -1,0 +1,2 @@
+1. g++ -c -fPIC algebra.cpp geometry.cpp statistics.cpp -I./include
+2. g++ -shared -o lib/miptlib.dll algebra.o geometry.o statistics.o -Wl,--out-implib,lib/libmiptlib.dll.a

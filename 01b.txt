@@ -1,0 +1,2 @@
+1. Создаю подпапки include и lib внутри основной папки
+2. g++ test.cpp -I./include -L./lib -lmiptlib
