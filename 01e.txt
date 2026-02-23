@@ -1,0 +1,2 @@
+1. g++ test_e.cpp -I./include -L./lib -lmiptlib
+2. ./a.exe

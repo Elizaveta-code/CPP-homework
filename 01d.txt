@@ -1,0 +1,8 @@
+1. g++ test.cpp -I./include -L./lib -lmiptlib
+2. Переместим miptlib.dll в папку с a.exe
+3. ./a.exe
+Вывод:
+7
+32
+78.5398
+3
