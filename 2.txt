@@ -1,0 +1,12 @@
+1) Alice 20 (можно присваивать объект производного класса объекту базового, произойдет срезка: копируется только часть Alice из b, a.x станет 20)
+2) error: no match for 'operator=' (operand types are 'Bob' and 'Alice')
+   b = a; 
+   there are 2 candidates
+3) Alice 20
+4)error: invalid conversion from 'Alice*' to 'Bob*' [-fpermissive]
+  Bob* p = &a;
+5) Alice 40
+6) Alice 40
+7) error: invalid conversion from 'Alice*' to 'Bob*' [-fpermissive]
+   Bob* p = &a;
+8) Bob 40 50
